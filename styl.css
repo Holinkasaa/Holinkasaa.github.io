@@ -1,0 +1,102 @@
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+h1{
+    color: aliceblue;
+    font-family: 'Tilt Prism';
+    font-size: 500%;
+}
+
+h2{
+    color: aliceblue;
+}
+
+body{
+    height:200%;
+    background-image: url(imger/кристаллы.gif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+h3{
+    font-size: 230%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    color:aliceblue;
+}
+.ub{
+    border: 4mm ridge rgb(0, 30, 128);
+    width: 70%;
+    max-width: 100%;   
+}
+.ub:hover{
+    -webkit-transform: scale(1.2);
+    transition: 1s;
+    border: 4mm ridge rgba(74, 3, 102, 0.6);
+}
+span{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.req{
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.let{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 90px;
+    height: 40%;
+    width: 20%;
+
+}
+.red{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: black;
+    border-radius: 90px;
+    height: 40%;
+    width: 20%;
+
+}
+
+.up{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.reg{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ljg{
+
+    width: 80%;
+    height: 50%;
+    border-radius: 90px;
+    background-color: aliceblue;
+
+}
+.i{
+    font-size: 200%;
+    font-weight: 900%;
+}
